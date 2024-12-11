@@ -1,0 +1,7 @@
+C:\Users\luxer\source\repos\Rekenmachine\Rekenmachine\bin\Debug\Rekenmachine.exe.config
+C:\Users\luxer\source\repos\Rekenmachine\Rekenmachine\bin\Debug\Rekenmachine.exe
+C:\Users\luxer\source\repos\Rekenmachine\Rekenmachine\bin\Debug\Rekenmachine.pdb
+C:\Users\luxer\source\repos\Rekenmachine\Rekenmachine\obj\Debug\Rekenmachine.csproj.AssemblyReference.cache
+C:\Users\luxer\source\repos\Rekenmachine\Rekenmachine\obj\Debug\Rekenmachine.csproj.CoreCompileInputs.cache
+C:\Users\luxer\source\repos\Rekenmachine\Rekenmachine\obj\Debug\Rekenmachine.exe
+C:\Users\luxer\source\repos\Rekenmachine\Rekenmachine\obj\Debug\Rekenmachine.pdb
