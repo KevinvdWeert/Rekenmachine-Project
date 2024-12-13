@@ -1,72 +1,35 @@
-# Rekenmachine in C#
+# Rekenmachine Project
 
-Deze eenvoudige rekenmachine is een consoletoepassing geschreven in C#. Het programma biedt ondersteuning voor basisbewerkingen zoals optellen, aftrekken, vermenigvuldigen en delen. Kommagetallen worden ondersteund, en de gebruiker kan meerdere berekeningen uitvoeren in dezelfde sessie.
+Dit project is een eenvoudige console-gebaseerde rekenmachine geschreven in C#. Het biedt een reeks basis- en geavanceerde rekenfuncties die de gebruiker kan uitvoeren door invoer via de console. 
 
 ## Functies
-- Ondersteunt de volgende bewerkingen:
-  - **+** (optellen)
-  - **-** (aftrekken)
-  - **x** (vermenigvuldigen)
-  - **:** (delen)
-- Mogelijkheid om kommagetallen in te voeren (gebruik een `,` als decimaalteken).
-- Meerdere berekeningen uitvoeren in een enkele sessie.
-- Eenvoudige en intuïtieve gebruikersinterface in de console.
+De rekenmachine ondersteunt de volgende operaties:
 
-## Hoe te gebruiken
-1. Start de toepassing.
-2. Voer het eerste getal in (bijvoorbeeld: `10` of `3,5`).
-3. Kies de gewenste bewerking (`+`, `-`, `x`, `:`).
-4. Voer het tweede getal in.
-5. Het resultaat wordt weergegeven.
-6. Kies of u een nieuwe berekening wilt uitvoeren.
+- **Optellen** (`+`)
+- **Aftrekken** (`-`)
+- **Vermenigvuldigen** (`x`)
+- **Delen** (`:`)
+- **Percentageberekening** (`%`): Berekent hoeveel procent het eerste getal is van het tweede getal.
+- **Vierkantswortel** (`Squareroot`): Berekening van de vierkantswortel van het eerste getal.
 
-## Vereisten
-- .NET Framework of .NET Core (met ondersteuning voor C#).
-- Een C# compiler (bijvoorbeeld Visual Studio of een andere IDE).
+## Voorbeeld van Gebruik
+
+1. Voer het eerste getal in (bijvoorbeeld `9`).
+2. Voer de gewenste functie in:
+   - Voor vierkantswortelberekening: Typ `squareroot`.
+   - Voor andere operaties zoals optellen: Typ `+`, `-`, `x`, `:` of `%`.
+3. Voer het tweede getal in (indien nodig).
+4. Bekijk het resultaat dat in de console wordt weergegeven.
 
 ## Installatie
-1. Clone deze repository:
-   ```bash
-   git clone https://github.com/<gebruikersnaam>/rekenmachine.git
-   ```
-2. Open het project in een C# IDE zoals Visual Studio.
-3. Compileer en voer het project uit.
+1. Download de code van deze repository.
+2. Open het project in een IDE zoals Visual Studio.
+3. Compileer en voer de code uit.
 
-## Code-uitleg
-Het programma gebruikt een **while-loop** om meerdere berekeningen mogelijk te maken binnen een enkele sessie. Invoer wordt gelezen met `Console.ReadLine()` en verwerkt met `double.Parse()`. De operator wordt gecontroleerd via een `if-else` structuur.
+## Feedback en Verbeteringen
+Heb je suggesties of problemen gevonden? Voel je vrij om een issue aan te maken of een pull request in te dienen.
 
-### Belangrijkste codefragmenten
-**Rekenkundige bewerkingen:**
-```csharp
-if (Input2 == "+")
-{
-    Console.WriteLine($"Resultaat: {getal1 + getal2}");
-}
-else if (Input2 == ":")
-{
-    Console.WriteLine($"Resultaat: {getal1 / getal2}");
-}
-else if (Input2 == "-")
-{
-    Console.WriteLine($"Resultaat: {getal1 - getal2}");
-}
-else if (Input2 == "x")
-{
-    Console.WriteLine($"Resultaat: {getal1 * getal2}");
-}
-```
-**Ondersteuning voor kommagetallen:**
-```csharp
-double getal1 = double.Parse(Console.ReadLine().Replace('.', ','));
-double getal2 = double.Parse(Console.ReadLine().Replace('.', ','));
-```
+---
 
-## Toekomstige verbeteringen
-- Ondersteuning voor complexere berekeningen (bijvoorbeeld machten of wortels).
-- Foutafhandeling voor ongeldige invoer.
-- Ondersteuning voor meerdere berekeningen in één invoer (bijvoorbeeld: `10 + 5 * 2`).
-- Grafische gebruikersinterface (GUI).
-
-## Licentie
-Dit project valt onder de MIT-licentie. Zie het bestand `LICENSE` voor meer informatie.
+Met deze updates biedt de rekenmachine een betere gebruikerservaring en meer functionaliteit. Probeer het uit en ontdek hoe handig het is!
 
